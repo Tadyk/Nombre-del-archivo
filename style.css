@@ -1,0 +1,72 @@
+/*SELECTOR UNIVERSAL*/
+*{
+    /*Color de fondo*/
+    background-color: rgb(206, 211, 239);  
+        /*color de texto*/
+         color: rgb(20, 48, 56); 
+*}
+
+/*Selector de etiqueta*/
+h1{
+    color: rgb(24, 40, 37);
+    border: solid rebeccapurple;
+}
+h2{
+    color: rgb(9, 12, 155);
+}
+h3{
+    color: rgb(97, 208, 149);
+}
+h4{
+    color: turquoise;
+}
+h5{
+    color: violet;
+}
+h6{color: black;
+}
+
+/*Selector de clase*/
+.tipografia{
+
+    /*Tipografia*/
+    font-family: sans-serif;
+    /*Peso*/
+    font-weight: 600;
+    /*Tamaño*/
+    font-size: x-large;
+    /*Color del parrafo*/
+    color: blue;
+
+    text-align: center;
+}
+/*Selector de id*/
+
+#color
+{
+    /*Color*/
+   color: red; 
+}
+
+#link{
+    text-align: center;
+    font-style: oblique;
+}
+/*Media queries(Tamanos de pantalla dependiendo del dispositivo)*/
+@media only screen and (max-width: 900px)
+{
+    body
+    {
+        background-color: red;
+    }
+    p{
+        color: yellow;
+    }
+}
+
+img, video{
+    /*Ancho*/
+    width: 400px;
+    /*Alto*/
+    /*height: 400px;;*/
+}
